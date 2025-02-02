@@ -1,0 +1,13 @@
+
+version: 2
+
+sources:
+  - name: insta
+    database: fivetran_database
+    schema: insta_insta_gram
+    tables:
+      - name: insta_data
+
+models:
+  - name: f_insta_data_vw
+    description: "Data product for the instagram view"
