@@ -17,4 +17,4 @@ WITH BASE AS (
         _FIVETRAN_SYNCED AS SNF_UPDATE_DATE
     FROM {{ source('insta','insta_data') }}
 )
-SELECT * FROM BASE
+SELECT * FROM BASE 
