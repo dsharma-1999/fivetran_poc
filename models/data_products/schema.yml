@@ -13,5 +13,5 @@ models:
     description: "Data product for the instagram view"
     columns:
       - name: from_home
-        tests:
+        data_tests:
           - not_null
