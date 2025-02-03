@@ -11,3 +11,7 @@ sources:
 models:
   - name: f_insta_data_vw
     description: "Data product for the instagram view"
+    columns:
+      - name: from_home
+        tests:
+          - not_null
